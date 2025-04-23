@@ -1,0 +1,33 @@
+
+import * as mongoose from 'mongoose';
+
+const Schema = mongoose.Schema;
+
+export const UserSchema = new Schema({
+   firstname: String,
+   lastname: String,
+   username: String,
+   userid:String,
+   email: String,
+   password: String,
+   phonenumber: String,
+   avatar: String,
+   Idtoken: String,
+   signintype: String,
+   loggedinDate: Date,
+   loggedoutDate: Date,
+   role: String,
+   org: String,
+   org_country: String,
+   org_sub1: String,
+   org_sub2: String,
+   org_sub3: String,
+   current_ip_location: String,
+   current_geolocation: {
+      latitude: String,
+      longtitude: String 
+   }
+});
+
+const UserModel = mongoose.model('User', UserSchema, 'User');
+export default UserModel;

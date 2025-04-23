@@ -1,0 +1,53 @@
+<svg version="1.1" baseProfile="full" width="334.0" height="306.0" viewBox="0 0 334 306" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+<desc >#.interface: fill=lightblue
+#.enumeration: fill=lightgreen
+#.type: fill=lightgray
+
+[&lt;interface&gt;person|+created_date: { type: Date; };+created_by: { type: String; };+last_modified_by: { type: String; };+last_modified_date: { type: Date; };+name: { type: String; };+age: { type: Number; }|]</desc>
+<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="normal" font-style="normal">
+<g font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+<g stroke="transparent" fill="transparent">
+<rect x="0.0" y="0.0" height="306.0" width="334.0" stroke="none"></rect>
+</g>
+<g transform="translate(8, 8)" fill="#33322E">
+<g transform="translate(20, 20)">
+<g data-name="person">
+<g fill="lightblue" stroke="#33322E" data-name="person">
+<rect x="0.0" y="0.0" height="250.0" width="278.0" data-name="person"></rect>
+<path d="M0.0 32.0 L278.0 32.0" fill="none" data-name="person"></path>
+<path d="M0.0 242.0 L278.0 242.0" fill="none" data-name="person"></path>
+</g>
+<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="person" data-compartment="0">
+<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="person" data-compartment="0">
+<a id="../application/services/diagrams/serviceModels/person.ts.person" xlink:href="../application/services/diagrams/serviceModels/person.ts"><text x="131.0" y="14.1" stroke="none" text-anchor="middle" data-name="person" data-compartment="0">person</text></a>
+
+</g>
+</g>
+<g transform="translate(0, 32)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="person" data-compartment="1">
+<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="person" data-compartment="1">
+<text x="0.0" y="14.1" stroke="none" data-name="person" data-compartment="1">+created_date: { type: Date</text>
+<text x="0.0" y="30.3" stroke="none" data-name="person" data-compartment="1">}</text>
+<text x="0.0" y="46.5" stroke="none" data-name="person" data-compartment="1">+created_by: { type: String</text>
+<text x="0.0" y="62.7" stroke="none" data-name="person" data-compartment="1">}</text>
+<text x="0.0" y="78.9" stroke="none" data-name="person" data-compartment="1">+last_modified_by: { type: String</text>
+<text x="0.0" y="95.1" stroke="none" data-name="person" data-compartment="1">}</text>
+<text x="0.0" y="111.3" stroke="none" data-name="person" data-compartment="1">+last_modified_date: { type: Date</text>
+<text x="0.0" y="127.5" stroke="none" data-name="person" data-compartment="1">}</text>
+<text x="0.0" y="143.7" stroke="none" data-name="person" data-compartment="1">+name: { type: String</text>
+<text x="0.0" y="159.9" stroke="none" data-name="person" data-compartment="1">}</text>
+<text x="0.0" y="176.1" stroke="none" data-name="person" data-compartment="1">+age: { type: Number</text>
+<text x="0.0" y="192.3" stroke="none" data-name="person" data-compartment="1">}</text>
+
+</g>
+</g>
+<g transform="translate(0, 242)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="person" data-compartment="2">
+<g transform="translate(8, 8)" fill="#33322E" data-name="person" data-compartment="2">
+
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
