@@ -5,7 +5,7 @@ import * as mongoose from 'mongoose';
 import { Routes } from './routes/routes';
 import { WinstonLogger } from './config/WinstonLogger';
 
-const PORT = 8017;
+const PORT = 8021;
 
 class App {
     public app: express.Application = express();

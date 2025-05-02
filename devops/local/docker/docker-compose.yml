@@ -34,7 +34,7 @@ services:
     image: systementry-5564
     container_name: systementry-5564
     ports:
-      - "8016:8016"
+      - "8020:8020"
     env_file: .env
     depends_on:
       mongo:
@@ -50,7 +50,7 @@ services:
     image: testfeature-5564
     container_name: testfeature-5564
     ports:
-      - "8017:8017"
+      - "8021:8021"
     env_file: .env
     depends_on:
       mongo:
